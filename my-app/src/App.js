@@ -3,7 +3,7 @@ import './App.css';
 import Counter from './Counter'
 function App() {
   return (
-    <Counter />
+    <Counter initial={0} valueAdd={2}/>
   );
 }
 
